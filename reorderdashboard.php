@@ -130,6 +130,9 @@ function reorderdashboard_civicrm_entityTypes(&$entityTypes) {
 /**
  * Implements hook_civicrm_pageRun() via Symfony hook system.
  *
+ * Thanks to Christian Watch for this PR that helped me understand Symfony hooks:
+ * https://github.com/civicrm/org.civicrm.shoreditch/pull/316/files
+ *
  * @link http://wiki.civicrm.org/confluence/display/CRMDOC/hook_civicrm_pageRun
  */
 function reorderdashboard_symfony_civicrm_pageRun($event, $hook) {
